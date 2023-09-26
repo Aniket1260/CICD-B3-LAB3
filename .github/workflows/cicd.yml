@@ -24,7 +24,7 @@ jobs:
     - name: Docker Build and Push
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: aniket1260/cicd
+        image: aniket1260/cicdlab4
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
